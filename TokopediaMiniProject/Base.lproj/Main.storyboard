@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -15,13 +16,43 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z9S-e5-lw7">
+                                <rect key="frame" x="0.0" y="44" width="414" height="808"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Aig-ju-K9v" customClass="NestedTableView" customModule="TokopediaMiniProject" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </tableView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Aig-ju-K9v" firstAttribute="leading" secondItem="Z9S-e5-lw7" secondAttribute="leading" id="9Hl-dF-0pD"/>
+                                    <constraint firstAttribute="bottom" secondItem="Aig-ju-K9v" secondAttribute="bottom" id="Dcd-pI-Ixk"/>
+                                    <constraint firstItem="Aig-ju-K9v" firstAttribute="centerX" secondItem="Z9S-e5-lw7" secondAttribute="centerX" id="JD8-lg-S2g"/>
+                                    <constraint firstAttribute="trailing" secondItem="Aig-ju-K9v" secondAttribute="trailing" id="U9P-aE-CMX"/>
+                                    <constraint firstItem="Aig-ju-K9v" firstAttribute="top" secondItem="I5X-2v-j7P" secondAttribute="top" id="lbZ-Vm-qyQ"/>
+                                    <constraint firstItem="Aig-ju-K9v" firstAttribute="bottom" secondItem="7QC-VC-SXU" secondAttribute="bottom" id="oEO-mb-rNA"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="I5X-2v-j7P"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="7QC-VC-SXU"/>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Z9S-e5-lw7" secondAttribute="trailing" id="2qG-uh-Ynj"/>
+                            <constraint firstItem="Z9S-e5-lw7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jKg-8K-wzp"/>
+                            <constraint firstItem="Z9S-e5-lw7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sFH-Om-njF"/>
+                            <constraint firstItem="Z9S-e5-lw7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="xdN-Or-qZy"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="allCategoriesTableView" destination="Aig-ju-K9v" id="ybm-Ne-V6k"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="84"/>
+            <point key="canvasLocation" x="137.68115942028987" y="83.705357142857139"/>
         </scene>
     </scenes>
     <resources>

@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F021F1F1EEC38BCE0E26451 /* Pods_TokopediaMiniProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEAFFE9CA6841AD12A0E98D /* Pods_TokopediaMiniProject.framework */; };
 		813BAED22554E3220083B711 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BAED12554E3220083B711 /* AppDelegate.swift */; };
 		813BAED42554E3220083B711 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BAED32554E3220083B711 /* SceneDelegate.swift */; };
 		813BAED62554E3220083B711 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BAED52554E3220083B711 /* ViewController.swift */; };
@@ -15,6 +16,18 @@
 		813BAEDE2554E3250083B711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813BAEDC2554E3250083B711 /* LaunchScreen.storyboard */; };
 		81B7DDC425CB989700C57C74 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 81B7DDC325CB989700C57C74 /* data.json */; };
 		81ED4455255826BE005EA87F /* TokopediaMiniProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED4454255826BE005EA87F /* TokopediaMiniProjectTests.swift */; };
+		8B8FAE8F28018F1F0093566F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8FAE8A28018F1F0093566F /* Data.swift */; };
+		8B8FAE9028018F1F0093566F /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8FAE8B28018F1F0093566F /* Base.swift */; };
+		8B8FAE9128018F1F0093566F /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8FAE8C28018F1F0093566F /* Categories.swift */; };
+		8B8FAE9228018F1F0093566F /* CategoryAllList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8FAE8D28018F1F0093566F /* CategoryAllList.swift */; };
+		8B8FAE9728019CFD0093566F /* allCategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8FAE9628019CFD0093566F /* allCategoriesTableViewCell.swift */; };
+		8B8FAE992801A2F80093566F /* categoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8FAE982801A2F80093566F /* categoriesTableViewCell.swift */; };
+		8B8FAE9B28030C670093566F /* NestedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8FAE9A28030C670093566F /* NestedTableView.swift */; };
+		8B926A41280439D4005D10D6 /* CategoriesAllTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B926A3F280439D4005D10D6 /* CategoriesAllTableViewCell.swift */; };
+		8B926A42280439D4005D10D6 /* CategoriesAllTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B926A40280439D4005D10D6 /* CategoriesAllTableViewCell.xib */; };
+		8B926A4528043AEA005D10D6 /* CategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B926A4328043AEA005D10D6 /* CategoriesTableViewCell.swift */; };
+		8B926A4628043AEA005D10D6 /* CategoriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B926A4428043AEA005D10D6 /* CategoriesTableViewCell.xib */; };
+		CC659341E1C337AF40490FBD /* Pods_TokopediaMiniProject_TokopediaMiniProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E361477E36A3BF17A4D52C6 /* Pods_TokopediaMiniProject_TokopediaMiniProjectTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AD2121139789A180E680784 /* Pods-TokopediaMiniProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokopediaMiniProject.debug.xcconfig"; path = "Target Support Files/Pods-TokopediaMiniProject/Pods-TokopediaMiniProject.debug.xcconfig"; sourceTree = "<group>"; };
+		2E361477E36A3BF17A4D52C6 /* Pods_TokopediaMiniProject_TokopediaMiniProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokopediaMiniProject_TokopediaMiniProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BEAFFE9CA6841AD12A0E98D /* Pods_TokopediaMiniProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokopediaMiniProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		780998AB8137557EE0676175 /* Pods-TokopediaMiniProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokopediaMiniProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-TokopediaMiniProjectTests/Pods-TokopediaMiniProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		813BAECE2554E3220083B711 /* TokopediaMiniProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokopediaMiniProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		813BAED12554E3220083B711 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		813BAED32554E3220083B711 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,10 +53,25 @@
 		813BAEDA2554E3250083B711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		813BAEDD2554E3250083B711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		813BAEDF2554E3250083B711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81B7DDC325CB989700C57C74 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		81B7DDC325CB989700C57C74 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; wrapsLines = 0; };
 		81ED4452255826BE005EA87F /* TokopediaMiniProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokopediaMiniProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81ED4454255826BE005EA87F /* TokopediaMiniProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokopediaMiniProjectTests.swift; sourceTree = "<group>"; };
 		81ED4456255826BF005EA87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840996561DB1B345AA46C48E /* Pods-TokopediaMiniProject-TokopediaMiniProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokopediaMiniProject-TokopediaMiniProjectTests.release.xcconfig"; path = "Target Support Files/Pods-TokopediaMiniProject-TokopediaMiniProjectTests/Pods-TokopediaMiniProject-TokopediaMiniProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B8FAE8A28018F1F0093566F /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Data.swift; path = codegen_62515754617c1/Data.swift; sourceTree = SOURCE_ROOT; };
+		8B8FAE8B28018F1F0093566F /* Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Base.swift; path = codegen_62515754617c1/Base.swift; sourceTree = SOURCE_ROOT; };
+		8B8FAE8C28018F1F0093566F /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Categories.swift; path = codegen_62515754617c1/Categories.swift; sourceTree = SOURCE_ROOT; };
+		8B8FAE8D28018F1F0093566F /* CategoryAllList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryAllList.swift; path = codegen_62515754617c1/CategoryAllList.swift; sourceTree = SOURCE_ROOT; };
+		8B8FAE9628019CFD0093566F /* allCategoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allCategoriesTableViewCell.swift; sourceTree = "<group>"; };
+		8B8FAE982801A2F80093566F /* categoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoriesTableViewCell.swift; sourceTree = "<group>"; };
+		8B8FAE9A28030C670093566F /* NestedTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTableView.swift; sourceTree = "<group>"; };
+		8B926A3F280439D4005D10D6 /* CategoriesAllTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesAllTableViewCell.swift; sourceTree = "<group>"; };
+		8B926A40280439D4005D10D6 /* CategoriesAllTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesAllTableViewCell.xib; sourceTree = "<group>"; };
+		8B926A4328043AEA005D10D6 /* CategoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewCell.swift; sourceTree = "<group>"; };
+		8B926A4428043AEA005D10D6 /* CategoriesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesTableViewCell.xib; sourceTree = "<group>"; };
+		CDF9C625639C8AA42F5F06D6 /* Pods-TokopediaMiniProject-TokopediaMiniProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokopediaMiniProject-TokopediaMiniProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-TokopediaMiniProject-TokopediaMiniProjectTests/Pods-TokopediaMiniProject-TokopediaMiniProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE4D96A9E22C6A7CE8EA1823 /* Pods-TokopediaMiniProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokopediaMiniProjectTests.release.xcconfig"; path = "Target Support Files/Pods-TokopediaMiniProjectTests/Pods-TokopediaMiniProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3D3847874BEC3A3C728DC15 /* Pods-TokopediaMiniProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokopediaMiniProject.release.xcconfig"; path = "Target Support Files/Pods-TokopediaMiniProject/Pods-TokopediaMiniProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F021F1F1EEC38BCE0E26451 /* Pods_TokopediaMiniProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +87,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC659341E1C337AF40490FBD /* Pods_TokopediaMiniProject_TokopediaMiniProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		060F08D0142964D259FDAF1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AD2121139789A180E680784 /* Pods-TokopediaMiniProject.debug.xcconfig */,
+				F3D3847874BEC3A3C728DC15 /* Pods-TokopediaMiniProject.release.xcconfig */,
+				780998AB8137557EE0676175 /* Pods-TokopediaMiniProjectTests.debug.xcconfig */,
+				DE4D96A9E22C6A7CE8EA1823 /* Pods-TokopediaMiniProjectTests.release.xcconfig */,
+				CDF9C625639C8AA42F5F06D6 /* Pods-TokopediaMiniProject-TokopediaMiniProjectTests.debug.xcconfig */,
+				840996561DB1B345AA46C48E /* Pods-TokopediaMiniProject-TokopediaMiniProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		813BAEC52554E3220083B711 = {
 			isa = PBXGroup;
 			children = (
 				813BAED02554E3220083B711 /* TokopediaMiniProject */,
 				81ED4453255826BE005EA87F /* TokopediaMiniProjectTests */,
 				813BAECF2554E3220083B711 /* Products */,
+				060F08D0142964D259FDAF1F /* Pods */,
+				EB15118B380BF5686E3F14EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +130,9 @@
 		813BAED02554E3220083B711 /* TokopediaMiniProject */ = {
 			isa = PBXGroup;
 			children = (
+				8B8FAE8928018E230093566F /* viewModel */,
+				8B8FAE8828018E190093566F /* view */,
+				8B8FAE8728018E120093566F /* model */,
 				813BAED12554E3220083B711 /* AppDelegate.swift */,
 				813BAED32554E3220083B711 /* SceneDelegate.swift */,
 				813BAED52554E3220083B711 /* ViewController.swift */,
@@ -102,6 +154,55 @@
 			path = TokopediaMiniProjectTests;
 			sourceTree = "<group>";
 		};
+		8B8FAE8728018E120093566F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8B8FAE8C28018F1F0093566F /* Categories.swift */,
+				8B8FAE8D28018F1F0093566F /* CategoryAllList.swift */,
+				8B8FAE8A28018F1F0093566F /* Data.swift */,
+				8B8FAE8B28018F1F0093566F /* Base.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		8B8FAE8828018E190093566F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8B926A3E28043992005D10D6 /* cell */,
+				8B8FAE9628019CFD0093566F /* allCategoriesTableViewCell.swift */,
+				8B8FAE982801A2F80093566F /* categoriesTableViewCell.swift */,
+				8B8FAE9A28030C670093566F /* NestedTableView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8B8FAE8928018E230093566F /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		8B926A3E28043992005D10D6 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				8B926A3F280439D4005D10D6 /* CategoriesAllTableViewCell.swift */,
+				8B926A40280439D4005D10D6 /* CategoriesAllTableViewCell.xib */,
+				8B926A4328043AEA005D10D6 /* CategoriesTableViewCell.swift */,
+				8B926A4428043AEA005D10D6 /* CategoriesTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		EB15118B380BF5686E3F14EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BEAFFE9CA6841AD12A0E98D /* Pods_TokopediaMiniProject.framework */,
+				2E361477E36A3BF17A4D52C6 /* Pods_TokopediaMiniProject_TokopediaMiniProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 813BAEE22554E3250083B711 /* Build configuration list for PBXNativeTarget "TokopediaMiniProject" */;
 			buildPhases = (
+				591B25CD844C2258FA997C9A /* [CP] Check Pods Manifest.lock */,
 				813BAECA2554E3220083B711 /* Sources */,
 				813BAECB2554E3220083B711 /* Frameworks */,
 				813BAECC2554E3220083B711 /* Resources */,
+				055CE34D9A55B1B093AC14A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81ED4459255826BF005EA87F /* Build configuration list for PBXNativeTarget "TokopediaMiniProjectTests" */;
 			buildPhases = (
+				F3DCBA6A81D699C1009D6470 /* [CP] Check Pods Manifest.lock */,
 				81ED444E255826BE005EA87F /* Sources */,
 				81ED444F255826BE005EA87F /* Frameworks */,
 				81ED4450255826BE005EA87F /* Resources */,
+				CCB9E86FFDB43458C15D50DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,6 +290,8 @@
 				813BAEDE2554E3250083B711 /* LaunchScreen.storyboard in Resources */,
 				813BAEDB2554E3250083B711 /* Assets.xcassets in Resources */,
 				813BAED92554E3220083B711 /* Main.storyboard in Resources */,
+				8B926A4628043AEA005D10D6 /* CategoriesTableViewCell.xib in Resources */,
+				8B926A42280439D4005D10D6 /* CategoriesAllTableViewCell.xib in Resources */,
 				81B7DDC425CB989700C57C74 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,14 +305,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		055CE34D9A55B1B093AC14A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TokopediaMiniProject/Pods-TokopediaMiniProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TokopediaMiniProject/Pods-TokopediaMiniProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TokopediaMiniProject/Pods-TokopediaMiniProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		591B25CD844C2258FA997C9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TokopediaMiniProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCB9E86FFDB43458C15D50DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TokopediaMiniProject-TokopediaMiniProjectTests/Pods-TokopediaMiniProject-TokopediaMiniProjectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TokopediaMiniProject-TokopediaMiniProjectTests/Pods-TokopediaMiniProject-TokopediaMiniProjectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TokopediaMiniProject-TokopediaMiniProjectTests/Pods-TokopediaMiniProject-TokopediaMiniProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3DCBA6A81D699C1009D6470 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TokopediaMiniProject-TokopediaMiniProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		813BAECA2554E3220083B711 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B8FAE9B28030C670093566F /* NestedTableView.swift in Sources */,
 				813BAED62554E3220083B711 /* ViewController.swift in Sources */,
 				813BAED22554E3220083B711 /* AppDelegate.swift in Sources */,
 				813BAED42554E3220083B711 /* SceneDelegate.swift in Sources */,
+				8B8FAE9028018F1F0093566F /* Base.swift in Sources */,
+				8B926A4528043AEA005D10D6 /* CategoriesTableViewCell.swift in Sources */,
+				8B8FAE992801A2F80093566F /* categoriesTableViewCell.swift in Sources */,
+				8B8FAE8F28018F1F0093566F /* Data.swift in Sources */,
+				8B8FAE9728019CFD0093566F /* allCategoriesTableViewCell.swift in Sources */,
+				8B8FAE9228018F1F0093566F /* CategoryAllList.swift in Sources */,
+				8B926A41280439D4005D10D6 /* CategoriesAllTableViewCell.swift in Sources */,
+				8B8FAE9128018F1F0093566F /* Categories.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +562,7 @@
 		};
 		813BAEE32554E3250083B711 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AD2121139789A180E680784 /* Pods-TokopediaMiniProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -383,6 +581,7 @@
 		};
 		813BAEE42554E3250083B711 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3D3847874BEC3A3C728DC15 /* Pods-TokopediaMiniProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -401,6 +600,7 @@
 		};
 		81ED445A255826BF005EA87F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF9C625639C8AA42F5F06D6 /* Pods-TokopediaMiniProject-TokopediaMiniProjectTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -420,6 +620,7 @@
 		};
 		81ED445B255826BF005EA87F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 840996561DB1B345AA46C48E /* Pods-TokopediaMiniProject-TokopediaMiniProjectTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
